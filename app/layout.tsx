@@ -7,6 +7,28 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.svg',
   },
+  metadataBase: new URL('https://sketchandsearch.dev'),
+  openGraph: {
+    title: 'Image Generation & Vector Search Hackathon | Sketch & Search',
+    description: 'Build creative pipelines with Google DeepMind, Freepik, and Qdrant using image/video generation and vector search.',
+    url: 'https://sketchandsearch.dev',
+    siteName: 'Sketch & Search Hackathon',
+    images: [
+      {
+        url: '/hackathon-og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sketch & Search Hackathon',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Image Generation & Vector Search Hackathon | Sketch & Search',
+    description: 'Build creative pipelines with Google DeepMind, Freepik, and Qdrant using image/video generation and vector search.',
+    images: ['/hackathon-og-image.png'],
+  },
 }
 
 export default function RootLayout({
