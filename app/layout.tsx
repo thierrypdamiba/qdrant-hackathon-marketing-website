@@ -28,7 +28,14 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Image Generation & Vector Search Hackathon | Sketch & Search',
     description: 'Build creative pipelines with Google DeepMind, Freepik, and Qdrant using image/video generation and vector search.',
-    images: ['/hackathon-og-image.png'],
+    images: [
+      {
+        url: '/hackathon-og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sketch & Search Hackathon',
+      },
+    ],
   },
 }
 
