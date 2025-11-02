@@ -75,16 +75,16 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Sketch & Search Hackathon
             </h1>
-            <div className="flex flex-wrap items-center justify-center gap-8 mb-8 px-4">
-              <img src="/DeepMind_new_logo.svg.png" alt="Google DeepMind" className="h-16 sm:h-20 object-contain" />
-              <img src="/images/qdrant.svg" alt="Qdrant" className="h-16 sm:h-20 object-contain" />
-              <img src="/images/freepik.png" alt="Freepik" className="h-16 sm:h-20 object-contain" />
+            <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 mb-6 sm:mb-8 px-4">
+              <img src="/DeepMind_new_logo.svg.png" alt="Google DeepMind" className="h-14 sm:h-16 md:h-20 object-contain" />
+              <img src="/images/qdrant.svg" alt="Qdrant" className="h-14 sm:h-16 md:h-20 object-contain" />
+              <img src="/images/freepik.png" alt="Freepik" className="h-14 sm:h-16 md:h-20 object-contain" />
             </div>
-            <p className="text-xl sm:text-2xl text-[#DC244C] font-bold mb-6">
+            <p className="text-lg sm:text-xl md:text-2xl text-[#DC244C] font-bold mb-4 sm:mb-6 px-4">
               Over $5,000 in prizes for the winners! 🏆
             </p>
-            <div className="flex justify-center mb-12">
-              <a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-8 py-3.5 rounded-full font-medium hover:bg-red-700 transition-colors text-xl inline-block">
+            <div className="flex justify-center mb-8 sm:mb-12 px-4">
+              <a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-6 py-2.5 sm:px-8 sm:py-3.5 rounded-full font-medium hover:bg-red-700 transition-colors text-base sm:text-lg md:text-xl inline-block w-full sm:w-auto text-center">
                 Register Now
               </a>
             </div>
