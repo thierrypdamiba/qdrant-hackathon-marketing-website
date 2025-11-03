@@ -29,7 +29,7 @@ export default function Home() {
               <a href="#judges" className="text-base text-gray-300 hover:text-white transition-colors">Judges</a>
               <a href="#submissions" className="text-base text-gray-300 hover:text-white transition-colors">Submissions</a>
               <a href="#faq" className="text-base text-gray-300 hover:text-white transition-colors">FAQ</a>
-              <a href="https://discord.com/channels/907569970500743200/1433638683449491456" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 hover:text-white transition-colors">Discord</a>
+              <a href="https://discord.gg/br2FUzFZ" target="_blank" rel="noopener noreferrer" className="text-base text-gray-300 hover:text-white transition-colors">Discord</a>
               <a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-6 py-2 rounded-full text-base font-medium hover:bg-red-700 transition-colors inline-block">
                 Register
               </a>
@@ -54,7 +54,7 @@ export default function Home() {
               <a href="#judges" onClick={() => setMobileNavOpen(false)} className="block text-gray-300 hover:text-white transition-colors py-2">Judges</a>
               <a href="#submissions" onClick={() => setMobileNavOpen(false)} className="block text-gray-300 hover:text-white transition-colors py-2">Submissions</a>
               <a href="#faq" onClick={() => setMobileNavOpen(false)} className="block text-gray-300 hover:text-white transition-colors py-2">FAQ</a>
-              <a href="https://discord.com/channels/907569970500743200/1433638683449491456" target="_blank" rel="noopener noreferrer" onClick={() => setMobileNavOpen(false)} className="block text-gray-300 hover:text-white transition-colors py-2">Discord</a>
+              <a href="https://discord.gg/br2FUzFZ" target="_blank" rel="noopener noreferrer" onClick={() => setMobileNavOpen(false)} className="block text-gray-300 hover:text-white transition-colors py-2">Discord</a>
               <a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" onClick={() => setMobileNavOpen(false)} className="w-full bg-[#DC244C] text-white px-6 py-2.5 rounded-full font-medium hover:bg-red-700 transition-colors mt-2 inline-block text-center">
                 Register
               </a>
@@ -64,10 +64,10 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8">
+      <section className="pt-20 sm:pt-32 pb-24 px-6 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="flex justify-center mb-8">
+          <div className="flex flex-col text-center mb-16 items-center">
+            <div className="flex justify-center mb-4 sm:mb-8">
               <span className="text-base text-[#DC244C] font-medium bg-red-50 px-5 py-2.5 rounded-full">
                 IN-PERSON & VIRTUAL
               </span>
@@ -75,20 +75,20 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Sketch & Search Hackathon
             </h1>
-            <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 mb-6 sm:mb-8 px-4">
-              <img src="/DeepMind_new_logo.svg.png" alt="Google DeepMind" className="h-14 sm:h-16 md:h-20 object-contain" />
-              <img src="/images/qdrant.svg" alt="Qdrant" className="h-14 sm:h-16 md:h-20 object-contain" />
-              <img src="/images/freepik.png" alt="Freepik" className="h-14 sm:h-16 md:h-20 object-contain" />
+            <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 md:gap-8 mb-6 sm:mb-8 w-full">
+              <img src="/DeepMind_new_logo.svg.png" alt="Google DeepMind" className="h-16 sm:h-16 md:h-20 object-contain" />
+              <img src="/images/qdrant.svg" alt="Qdrant" className="h-16 sm:h-16 md:h-20 object-contain" />
+              <img src="/images/freepik.png" alt="Freepik" className="h-16 sm:h-16 md:h-20 object-contain" />
             </div>
-            <p className="text-lg sm:text-xl md:text-2xl text-[#DC244C] font-bold mb-4 sm:mb-6 px-4">
+            <p className="text-lg sm:text-xl md:text-2xl text-[#DC244C] font-bold mb-4 sm:mb-8 px-6 order-3 sm:order-4 text-center w-full">
               Over $5,000 in prizes for the winners! 🏆
             </p>
-            <div className="flex justify-center mb-8 sm:mb-12 px-4">
+            <div className="flex justify-center mb-6 sm:mb-12 px-6 order-4 sm:order-5 w-full">
               <a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-6 py-2.5 sm:px-8 sm:py-3.5 rounded-full font-medium hover:bg-red-700 transition-colors text-base sm:text-lg md:text-xl inline-block w-full sm:w-auto text-center">
                 Register Now
               </a>
             </div>
-            <p className="text-xl sm:text-2xl text-gray-600 mb-4 max-w-3xl mx-auto leading-relaxed px-4">
+            <p className="text-xl sm:text-2xl text-gray-600 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-6 order-5 sm:order-3 text-center w-full">
               Combine Google DeepMind&apos;s Nano Banana & Gemini, Freepik&apos;s image/video studio, and Qdrant&apos;s vector search engine to build a creative pipeline that delivers beautiful and trustworthy content.
             </p>
           </div>
@@ -171,7 +171,7 @@ export default function Home() {
             <a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-8 py-3.5 rounded-full font-medium hover:bg-red-700 transition-colors text-lg inline-block">
               Register Now
             </a>
-            <a href="https://discord.com/channels/907569970500743200/1433638683449491456" target="_blank" rel="noopener noreferrer" className="bg-gray-900 text-white px-8 py-3.5 rounded-full font-medium hover:bg-gray-800 transition-colors text-lg flex items-center space-x-2 inline-block">
+            <a href="https://discord.gg/br2FUzFZ" target="_blank" rel="noopener noreferrer" className="bg-gray-900 text-white px-8 py-3.5 rounded-full font-medium hover:bg-gray-800 transition-colors text-lg flex items-center space-x-2 inline-block">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
               </svg>
@@ -547,7 +547,7 @@ export default function Home() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Submission Link</h3>
-                  <a href="https://forms.gle/2s2cPLvKdWoVMvuKA" target="_blank" rel="noopener noreferrer" className="text-[#DC244C] hover:underline text-lg font-medium inline-block">
+                  <a href="https://forms.gle/2s2cPLvKdWoVMvuKA" target="_blank" rel="noopener noreferrer" className="text-[#DC244C] hover:underline text-base sm:text-lg font-medium break-all sm:break-words block max-w-full">
                     https://forms.gle/2s2cPLvKdWoVMvuKA
                   </a>
                   <p className="text-gray-600 mt-2 text-lg">Click the link above to access the submission form</p>
@@ -901,7 +901,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-6 text-lg">Still have questions?</p>
-            <a href="https://discord.com/channels/907569970500743200/1433638683449491456" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-8 py-3.5 rounded-full font-medium hover:bg-red-700 transition-colors text-lg inline-block">
+            <a href="https://discord.gg/br2FUzFZ" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-8 py-3.5 rounded-full font-medium hover:bg-red-700 transition-colors text-lg inline-block">
               Contact us on Discord
             </a>
           </div>
@@ -936,13 +936,13 @@ export default function Home() {
               <ul className="space-y-3 text-sm text-gray-400">
                 <li><a href="#workshops" className="hover:text-white transition-colors">Workshops</a></li>
                 <li><a href="#submissions" className="hover:text-white transition-colors">Submissions</a></li>
-                <li><a href="https://discord.com/channels/907569970500743200/1433638683449491456" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors inline-block">Get Help on Discord</a></li>
+                <li><a href="https://discord.gg/br2FUzFZ" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors inline-block">Get Help on Discord</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-5 text-base">Community</h4>
               <ul className="space-y-3 text-sm text-gray-400">
-                <li><a href="https://discord.com/channels/907569970500743200/1433638683449491456" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a></li>
+                <li><a href="https://discord.gg/br2FUzFZ" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a></li>
                 <li><a href="#partners" className="hover:text-white transition-colors">Partners</a></li>
                 <li><a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Register</a></li>
               </ul>
