@@ -80,8 +80,8 @@ export default function Home() {
               <img src="/images/qdrant.svg" alt="Qdrant" className="h-16 sm:h-16 md:h-20 object-contain" />
               <img src="/images/freepik.png" alt="Freepik" className="h-16 sm:h-16 md:h-20 object-contain" />
             </div>
-            <p className="text-lg sm:text-xl md:text-2xl text-[#DC244C] font-bold mb-4 sm:mb-8 px-6 order-3 sm:order-4 text-center w-full">
-              Over $5,000 in prizes for the winners! 🏆
+            <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#DC244C] font-bold mb-4 sm:mb-8 px-6 order-3 sm:order-4 text-center w-full">
+              Over $25,000 in prizes for the winners! 🏆
             </p>
             <div className="flex justify-center mb-6 sm:mb-12 px-6 order-4 sm:order-5 w-full">
               <a href="https://luma.com/2kt11r0m" target="_blank" rel="noopener noreferrer" className="bg-[#DC244C] text-white px-6 py-2.5 sm:px-8 sm:py-3.5 rounded-full font-medium hover:bg-red-700 transition-colors text-base sm:text-lg md:text-xl inline-block w-full sm:w-auto text-center">
@@ -298,24 +298,24 @@ export default function Home() {
                   <span className="text-white font-bold text-2xl">🥇</span>
                 </div>
                 <div className="text-2xl font-bold text-gray-900 mb-2">1st Place</div>
-                <div className="text-3xl font-bold text-[#DC244C] mb-1">$1,500 Cash</div>
-                <div className="text-2xl font-bold text-[#DC244C] mb-3">+ $500 Gift Card</div>
+                <div className="text-4xl sm:text-5xl font-bold text-[#DC244C] mb-1">$1,500 Cash</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#DC244C] mb-3">+ $500 Gift Card</div>
               </div>
               <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
                 <div className="w-16 h-16 bg-[#DC244C] rounded-full flex items-center justify-center mx-auto mb-5">
                   <span className="text-white font-bold text-2xl">🥈</span>
                 </div>
                 <div className="text-2xl font-bold text-gray-900 mb-2">2nd Place</div>
-                <div className="text-3xl font-bold text-[#DC244C] mb-1">$500 Cash</div>
-                <div className="text-2xl font-bold text-[#DC244C] mb-3">+ $300 Gift Card</div>
+                <div className="text-4xl sm:text-5xl font-bold text-[#DC244C] mb-1">$500 Cash</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#DC244C] mb-3">+ $300 Gift Card</div>
               </div>
               <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
                 <div className="w-16 h-16 bg-[#DC244C] rounded-full flex items-center justify-center mx-auto mb-5">
                   <span className="text-white font-bold text-2xl">🥉</span>
                 </div>
                 <div className="text-2xl font-bold text-gray-900 mb-2">3rd Place</div>
-                <div className="text-3xl font-bold text-[#DC244C] mb-1">$250 Cash</div>
-                <div className="text-2xl font-bold text-[#DC244C] mb-3">+ $150 Gift Card</div>
+                <div className="text-4xl sm:text-5xl font-bold text-[#DC244C] mb-1">$250 Cash</div>
+                <div className="text-2xl sm:text-3xl font-bold text-[#DC244C] mb-3">+ $150 Gift Card</div>
               </div>
             </div>
             
@@ -325,12 +325,12 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-8 text-center border border-red-200">
                   <div className="text-5xl mb-4">🍌</div>
                   <div className="text-xl font-bold text-gray-900 mb-3">Best use of Nano Banana</div>
-                  <div className="text-lg font-semibold text-[#DC244C]">Gemini API Credits</div>
+                  <div className="text-4xl sm:text-5xl font-bold text-[#DC244C]">$10,000</div>
                 </div>
                 <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 text-center border border-purple-200">
                   <div className="text-5xl mb-4">✨</div>
                   <div className="text-xl font-bold text-gray-900 mb-3">Best use of Gemini</div>
-                  <div className="text-lg font-semibold text-purple-600">Gemini API Credits</div>
+                  <div className="text-4xl sm:text-5xl font-bold text-purple-600">$10,000</div>
                 </div>
               </div>
             </div>
@@ -876,7 +876,7 @@ export default function Home() {
               },
               {
                 question: 'What are the prizes?',
-                answer: 'Over $5,000 in prizes! 1st Place: $1,500 Cash & $500 Gift Card, 2nd Place: $500 Cash & $300 Gift Card, 3rd Place: $250 Cash & $150 Gift Card. Plus special Google DeepMind partner prizes: Gemini API Credits for Best use of Nano Banana and Best use of Gemini!'
+                answer: 'Over $25,000 in prizes! 1st Place: $1,500 Cash & $500 Gift Card, 2nd Place: $500 Cash & $300 Gift Card, 3rd Place: $250 Cash & $150 Gift Card. Plus special Google DeepMind partner prizes: $10,000 for Best use of Nano Banana and $10,000 for Best use of Gemini!'
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
